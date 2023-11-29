@@ -16,7 +16,7 @@
 
 2. Paste script di file .html nya
    
-   ![Alt text](image.png)
+   ![Alt text](assets/readme/image.png)
 
 4. Copy div ini 
    ```
@@ -25,4 +25,4 @@
  
 5. Paste div nya di body
    
-   ![Alt text](image-1.png)
+   ![Alt text](assets/readme/image-1.png)
