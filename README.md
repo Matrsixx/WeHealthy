@@ -15,12 +15,14 @@
     ```
 
 2. Paste script di file .html nya
+   
    ![Alt text](image.png)
 
-3. Copy div ini 
+4. Copy div ini 
    ```
    <div id="navbar"></div>
    ```
  
-4. Paste div nya di body  
+5. Paste div nya di body
+   
    ![Alt text](image-1.png)
