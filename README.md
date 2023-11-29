@@ -21,6 +21,8 @@
     ```
     <div id="navbar"></div>
     ```
-    
-4. Paste div nya di body 
+
+  
+4. Paste div nya di body
+   
 ![Alt text](image-1.png)
