@@ -1,17 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(function(){
-            $("#navbar").load("include/navbar.html"); 
-        });
-    </script>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="shortcut icon" href="assets/Icon.png" type="image/x-icon">
 </head>
-<body>
-    <div id="navbar"></div>
+<body style="background-image: url(assets/background-login.png); background-size: cover;">
+	<div class="login-box">
+		<img src="assets/Login-Logo.png" alt="logo" srcset="" class="avatar">
+		<h2>Login</h2>
+		<form action="" method="POST">
+			<div class="user-box">
+				<input type="text" name="username" required>
+				<label>Username</label>
+			</div>
+			<div class="user-box">
+				<input type="password" name="password" required>
+				<label>Password</label>
+			</div>
+			<br>	
+			<br>
+			<input id="button" type="submit" value="Submit" name="submit" disabled="true">
+			<br><br>
+			<span><a href="views/forgot.html" class="forgot-button"><b>Forgot Password?</b></a></span>
+			<br><br>
+			
+			<span>Don't Have An Account? <a href="views/register.html" class="forgot-button"><b>Register</b></a></span>
+			
+		</form>
+	</div>
 </body>
 </html>
