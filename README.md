@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
         $(function(){
-            $("#navbar").load("include/navbar.html"); 
+            $("#navbar").load("../include/navbar.html"); 
         });
     </script>
     ```
