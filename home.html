@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    $(function(){
+        $("#navbar").load("../include/navbar.html"); 
+    });
+    </script>
+  	<link rel="shortcut icon" href="../assets/Icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../styles/home.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="find-threads">
+        <div class="findthread">
+            <h1>Find Threads</h1>
+        </div>
+        <form action="#" method="get">
+            <input type="text" id="search-bar" placeholder="Search threads...">
+            <input type="submit" id="search-button" value="Search">
+        </form>
+    </div>
+
+    <div class="general-forum">
+        <div class="generalforum">
+            <h1>General Forums</h1>
+            <table>
+                <thead class="header">
+                    <tr>
+                        <th>Topic Title</th>
+                        <th></th>
+                        <th></th>
+                        <th>Answer</th>
+                    </tr>
+                </thead>
+                <tbody class="content">
+                    <tr>                      
+                        <td class="user-cell">
+                            <div class="user-content">
+                                <img src="../assets/profile.png" alt="user1" class="user-image">
+                                <a href="" class="title-link"><h2>Corona Virus</h2></a>
+                            </div>
+                            <p class="forum-details">Posted by Felix Rafael Junio, 40 min ago</p>
+                        </td>
+                        <td>
+                            <p class="vote-counter">Votes: 10</p>
+                        </td>
+                        <td>
+                            <p class="view-counter">Views: 100</p>
+                        </td>
+                        <td>
+                            <p class="answer-details">By Dr. Vincent Sp.D, <br>15 min ago</p>
+                        </td>
+                    </tr>
+
+                    <tr>                      
+                        <td class="user-cell">
+                            <div class="user-content">
+                                <img src="../assets/profile.png" alt="user1" class="user-image">
+                                <a href="" class="title-link"><h2>Heart Attack</h2></a>
+                            </div>
+                            <p class="forum-details">Posted by Felix Rafael Junio, 59 min ago</p>
+                        </td>
+                        <td>
+                            <p class="vote-counter">Votes: 5</p>
+                        </td>
+                        <td>
+                            <p class="view-counter">Views: 50</p>
+                        </td>
+                        <td>
+                            <p class="answer-details">By Dr. Stephan Sp.D, <br>30 min ago</p>
+                        </td>
+                    </tr>
+
+                    <tr>                      
+                        <td class="user-cell">
+                            <div class="user-content">
+                                <img src="../assets/profile.png" alt="user1" class="user-image">
+                                <a href="" class="title-link"><h2>Diabetes</h2></a>
+                            </div>
+                            <p class="forum-details">Posted by Felix Rafael Junio, 2 hours ago</p>
+                        </td>
+                        <td>
+                            <p class="vote-counter">Votes: 1</p>
+                        </td>
+                        <td>
+                            <p class="view-counter">Views: 10</p>
+                        </td>
+                        <td>
+                            <p class="answer-details">By Dr. Antonyous Sp.D, <br>15 min ago</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
