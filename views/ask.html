@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#navbar").load("../include/navbar.html"); 
+        });
+    </script>
+    <link rel="stylesheet" href="../styles/ask.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <img src="../assets/wallpaperflare.com_wallpaper.jpg" alt="background-image" class="background-image">
+    <div id="discussion-container">
+        <div class="rectangle-19"></div>
+        <div class="rectangle-22">
+            <div id="line-4"></div>
+            <input type="text" for="input-text" id="write-text" placeholder="Write a text (min 5 words)">
+            <div id="post-button" onclick="postClicked()">
+                <div class="rectangle-23"></div>
+                <div id="post">Post</div>
+
+                <button id="imageBold" onclick="buttonClicked()">
+                    <img src="../assets/bold.png" alt="bold" class="user-image">
+                </button>
+                <button id="imageItalic" onclick="buttonClicked()">
+                    <img src="../assets/free-italic-1463228-1237472.webp" alt="italic" class="user-image">
+                </button>
+                <button id="imageUnderline" onclick="buttonClicked()">
+                    <img src="../assets/underline.png" alt="underline" class="user-image">
+                </button>
+                <button id="imageAttachment" onclick="buttonClicked()">
+                    <img src="../assets/237510.png" alt="attachment" class="user-image">
+                </button>
+
+            </div>
+        </div>
+        <div id="image-5"></div>
+        <div id="ask-question">Ask A Question</div>
+    </div>
+</body>
+</html>
+
+
