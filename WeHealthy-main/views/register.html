@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+  	<link rel="shortcut icon" href="../assets/Icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../styles/register.css">
+</head>
+<body style="background-image: url(../assets/background-login.png); background-size: cover;">
+	<div class="login-box">
+		<img src="../assets/Login-Logo.png" alt="logo" srcset="" class="avatar">
+		<h2>Register</h2>
+
+		<form action="" method="POST">
+			<div class="user-box">
+				<input type="text" name="username" required="">
+				<label>Username</label>
+			</div>
+			<div class="user-box">
+				<input type="password" name="password" required="">
+				<label>Password</label>
+			</div>
+      		<div class="user-box">
+        		<input type="password" name="confirm-password" required="">
+				<label>Confirm Password</label>
+			</div>
+			<div class="user-box">
+        		<input type="email" name="email" required="">
+        		<label>Email</label>
+      </div>
+			<div>
+				<label for="role">Choose a role:</label>
+
+				<select id="role" name="role">
+						<option value="buyer">Patient</option>
+						<option value="seller">Doctor</option>
+				</select>
+			</div>
+			<input id="button" type="submit" value="Submit" name="submit">
+			<br><br>
+			<span>Already Have An Account? <a href="../index.html" class="forgot-button"><b>Login</b></a></span>
+		</form>
+	</div>
+</body>
+</html>
