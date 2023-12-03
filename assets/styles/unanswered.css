@@ -1,0 +1,290 @@
+body,html {
+    margin: 0;
+    height: auto;
+}
+
+body{
+  background: #f2f2f2;
+}
+
+.search {
+  width: 180%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: none;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: #000;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #0a0a0a;
+}
+
+.searchButton {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #2986cc;
+  background: #2986cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#ask-question {
+    position: absolute;
+    width: 251px;
+    height: 26px;
+    left: 185px;
+    top: 158px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.image-figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.author-title {
+    color: #000;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.image-figure {
+    margin: auto; 
+    text-align: center; 
+    left: 200px;
+    top: 205px;
+}
+
+.rectangle {
+  width: 1100px;
+  height: 100px;
+  background-color: #fcfcfc; 
+  border: 2px solid #a5a5a5; 
+  
+  position: absolute;
+  top: 50%;
+  left: 48%; 
+  transform: translate(-50%, -50%); 
+}
+
+.rectanglee {
+  width: 1100px;
+  height: 35px;
+  background-color: #3498db; 
+  border: 2px solid #a5a5a5; 
+  
+  position: absolute;
+  top: 41%; 
+  left: 48%; 
+  transform: translate(-50%, -50%);
+}
+.rectangle2 {
+  width: 1100px;
+  height: 85px;
+  background-color: #fcfcfc; 
+  border: 2px solid #a5a5a5;
+  
+  position: absolute;
+  top: 63%; 
+  left: 48%; 
+  transform: translate(-50%, -50%); 
+}
+.rectangle3 {
+  width: 1100px;
+  height: 87px;
+  background-color: #fcfcfc;
+  border: 2px solid #a5a5a5; 
+  
+  position: absolute;
+  top:75%; 
+  left: 48%; 
+  transform: translate(-50%, -50%); 
+}
+
+.rectangle4 {
+  width: 1100px;
+  height: 87px;
+  background-color: #fcfcfc; 
+  border: 2px solid #a5a5a5; 
+  
+  position: absolute;
+  top:86.3%; 
+  left: 48%; 
+  transform: translate(-50%, -50%); 
+}
+.rectangle5 {
+  width: 1100px;
+  height: 87px;
+  background-color: #fcfcfc;
+  border: 2px solid #a5a5a5; 
+  
+  position: absolute;
+  top: 98.6%; 
+  left: 48%; 
+  transform: translate(-50%, -50%); 
+}
+
+.rectangle6 {
+  width: 1100px;
+  height: 87px;
+  background-color: #fcfcfc;
+  border: 2px solid #a5a5a5; 
+  position: absolute;
+  top:110.7%;
+  left: 48%; 
+  transform: translate(-50%, -50%); 
+}
+#topic-title {
+  position: relative;
+  left: 195px;
+  top: 210px;
+  font-size: 20px;
+}
+
+#Answer {
+  position: relative;
+  left: 1150px;
+  top: 190px;
+  font-size: 20px;
+}
+
+p1 {
+  position: absolute;
+  text-align left;
+  left : 550px;
+}
+p11 {
+  position: absolute;
+  text-align left;
+  left : 750px;
+}
+
+p111 {
+  position: absolute;
+  text-align left;
+  left : 980px;
+}
+p2 {
+  position: absolute;
+  text-align left;
+  left : 550px;
+}
+p22 {
+  position: absolute;
+  text-align left;
+  left : 750px;
+}
+
+p222 {
+  position: absolute;
+  text-align left;
+  left : 980px;
+}
+
+p3 {
+  position: absolute;
+  text-align left;
+  left : 550px;
+}
+p33 {
+  position: absolute;
+  text-align left;
+  left : 750px;
+}
+
+p333 {
+  position: absolute;
+  text-align left;
+  left : 980px;
+}
+
+p4 {
+  position: absolute;
+  text-align left;
+  left : 550px;
+}
+p44 {
+  position: absolute;
+  text-align left;
+  left : 750px;
+}
+
+p444 {
+  position: absolute;
+  text-align left;
+  left : 980px;
+}
+
+p5 {
+  position: absolute;
+  text-align left;
+  left : 550px;
+}
+p55 {
+  position: absolute;
+  text-align left;
+  left : 750px;
+}
+
+p555 {
+  position: absolute;
+  text-align left;
+  left : 980px;
+}
+
+p6 {
+  position: absolute;
+  text-align left;
+  left : 550px;
+}
+p66 {
+  position: absolute;
+  text-align left;
+  left : 750px;
+}
+
+p666 {
+  position: absolute;
+  text-align left;
+  left : 980px;
+}
