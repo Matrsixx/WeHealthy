@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(function(){
+        $("#navbar").load("../include/navbar.html"); 
+    });
+  </script>
+  <link rel="stylesheet" href="../styles/profile.css">
+  <link rel="shortcut icon" href="../assets/Icon.png" type="image/x-icon">
+  <div id="navbar"></div>
+</head>
+<body>
+  
+  <section>
+    <div id="profile-container">
+      <div id="profile-header">
+        <img src="../assets/profile.png" alt="Profile Picture" id="profile-picture">
+        <button id="change-picture-button">Change Picture</button>
+      </div>
+      
+      <div id="profile-info">
+        <div class="profile-input">
+          <label for="fullname"><strong>Full Name</strong></label>
+          <input type="text" name="fullname" id="fullname" class="user-input" value="Devan Valencio Manuputty">
+        </div>
+        <div class="profile-input">
+          <label for="phone-number"><strong>Phone Number</strong></label>
+          <input type="text" name="phone-number" class="user-input" id="phone-number" value="081234567890">
+        </div>
+        <div class="profile-input">
+          <label for="email"><strong>Email</strong></label>
+          <input type="text" name="email" class="user-input" id="email" value="devan.manuputty@gmail.com">
+        </div>
+        <div class="profile-input">
+          <label for="new-password"><strong>New Password</strong></label>
+          <input type="password" name="new-password" class="user-input" id="new-password" value="">
+        </div>
+        <div class="profile-input">
+          <label for="confirm-password"><strong>Confirm Password</strong></label>
+          <input type="password" name="confirm-password" class="user-input" id="confirm-password" value="">
+        </div>
+        <div id="button-container">
+          <button id="cancel-button" >Cancel</button>
+          <button id="save-button" href="./home.html">Save</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script>
+  const cancel = document.getElementById("cancel-button");
+  const save = document.getElementById("save-button");
+
+  cancel.addEventListener("click", function() {
+    window.location.href = "./home.html";
+  });
+
+  save.addEventListener("click", function() {
+    window.location.href = "./home.html";
+  });
+</script>
+</html>
