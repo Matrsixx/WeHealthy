@@ -1,290 +1,128 @@
-body,html {
-    margin: 0;
-    height: auto;
-}
-
-body{
-  background: #f2f2f2;
-}
-
-.search {
-  width: 180%;
-  position: relative;
+section {
   display: flex;
-}
-
-.searchTerm {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
   width: 100%;
-  border: none;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: #000;
-  color: #9DBFAF;
+  margin-top: 2vw;
+  margin-left: -20%;
+
 }
 
-.searchTerm:focus{
-  color: #0a0a0a;
+.profile-picture {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 2vw;
 }
 
-.searchButton {
-  width: 50px;
-  height: 30px;
-  border: 1px solid #2986cc;
-  background: #2986cc;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200%;
+  height: 100%;
+  margin-top: 2vw;
+  margin-left: -10%;
+}
+
+.container-header {
+  display: flex;
+  width: 100%;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+}
+
+#table {
+  display: table;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200%;
+  height: 100%;
+  margin-top: 2vw;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(41, 204, 254);
+  width: 100%;
+  padding: 1%;
+  border: 1px solid white;
+}
+
+tbody {
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  padding: 1%;
+  border: 1px solid white;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin-bottom: 1vw;
+}
+
+td {
+  width: 50%;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+#search-bar {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.1vw;
+  border: 1px solid #ccc;
+  border-radius: 1.5vw 0 0 1.5vw;
+}
+
+#search-button {
+  width: 20%;
+  padding: 10px;
+  font-size: 1.1vw;
+  border: 1px solid #ccc;
+  border-radius: 0 1.5vw 1.5vw 0;
   cursor: pointer;
-  font-size: 12px;
+  background-color: rgb(15, 143, 251);
+  color: #fff;
 }
 
-.wrap{
-  width: 30%;
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+#search-button:hover {
+  background-color: white;
+  color: black;
 }
 
-#ask-question {
-    position: absolute;
-    width: 251px;
-    height: 26px;
-    left: 185px;
-    top: 158px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    color: rgb(0, 0, 0);
+#table-header {
+  display: inline-table;
+  text-align: center;
+  width: 100%;
 }
 
-.circle {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
+.vote-rectangle, .view-rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 50%;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border: 1px solid black;
 }
 
-.image-figure {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    position: relative;
+.vote-rectangle {
+  background-color: rgb(41, 204, 254);
 }
 
-.author-title {
-    color: #000;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    margin-top: 12px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-.image-figure {
-    margin: auto; 
-    text-align: center; 
-    left: 200px;
-    top: 205px;
-}
-
-.rectangle {
-  width: 1100px;
-  height: 100px;
-  background-color: #fcfcfc; 
-  border: 2px solid #a5a5a5; 
-  
-  position: absolute;
-  top: 50%;
-  left: 48%; 
-  transform: translate(-50%, -50%); 
-}
-
-.rectanglee {
-  width: 1100px;
-  height: 35px;
-  background-color: #3498db; 
-  border: 2px solid #a5a5a5; 
-  
-  position: absolute;
-  top: 41%; 
-  left: 48%; 
-  transform: translate(-50%, -50%);
-}
-.rectangle2 {
-  width: 1100px;
-  height: 85px;
-  background-color: #fcfcfc; 
-  border: 2px solid #a5a5a5;
-  
-  position: absolute;
-  top: 63%; 
-  left: 48%; 
-  transform: translate(-50%, -50%); 
-}
-.rectangle3 {
-  width: 1100px;
-  height: 87px;
-  background-color: #fcfcfc;
-  border: 2px solid #a5a5a5; 
-  
-  position: absolute;
-  top:75%; 
-  left: 48%; 
-  transform: translate(-50%, -50%); 
-}
-
-.rectangle4 {
-  width: 1100px;
-  height: 87px;
-  background-color: #fcfcfc; 
-  border: 2px solid #a5a5a5; 
-  
-  position: absolute;
-  top:86.3%; 
-  left: 48%; 
-  transform: translate(-50%, -50%); 
-}
-.rectangle5 {
-  width: 1100px;
-  height: 87px;
-  background-color: #fcfcfc;
-  border: 2px solid #a5a5a5; 
-  
-  position: absolute;
-  top: 98.6%; 
-  left: 48%; 
-  transform: translate(-50%, -50%); 
-}
-
-.rectangle6 {
-  width: 1100px;
-  height: 87px;
-  background-color: #fcfcfc;
-  border: 2px solid #a5a5a5; 
-  position: absolute;
-  top:110.7%;
-  left: 48%; 
-  transform: translate(-50%, -50%); 
-}
-#topic-title {
-  position: relative;
-  left: 195px;
-  top: 210px;
-  font-size: 20px;
-}
-
-#Answer {
-  position: relative;
-  left: 1150px;
-  top: 190px;
-  font-size: 20px;
-}
-
-p1 {
-  position: absolute;
-  text-align left;
-  left : 550px;
-}
-p11 {
-  position: absolute;
-  text-align left;
-  left : 750px;
-}
-
-p111 {
-  position: absolute;
-  text-align left;
-  left : 980px;
-}
-p2 {
-  position: absolute;
-  text-align left;
-  left : 550px;
-}
-p22 {
-  position: absolute;
-  text-align left;
-  left : 750px;
-}
-
-p222 {
-  position: absolute;
-  text-align left;
-  left : 980px;
-}
-
-p3 {
-  position: absolute;
-  text-align left;
-  left : 550px;
-}
-p33 {
-  position: absolute;
-  text-align left;
-  left : 750px;
-}
-
-p333 {
-  position: absolute;
-  text-align left;
-  left : 980px;
-}
-
-p4 {
-  position: absolute;
-  text-align left;
-  left : 550px;
-}
-p44 {
-  position: absolute;
-  text-align left;
-  left : 750px;
-}
-
-p444 {
-  position: absolute;
-  text-align left;
-  left : 980px;
-}
-
-p5 {
-  position: absolute;
-  text-align left;
-  left : 550px;
-}
-p55 {
-  position: absolute;
-  text-align left;
-  left : 750px;
-}
-
-p555 {
-  position: absolute;
-  text-align left;
-  left : 980px;
-}
-
-p6 {
-  position: absolute;
-  text-align left;
-  left : 550px;
-}
-p66 {
-  position: absolute;
-  text-align left;
-  left : 750px;
-}
-
-p666 {
-  position: absolute;
-  text-align left;
-  left : 980px;
+.view-rectangle {
+  background-color: rgb(253, 162, 92);
 }
